@@ -1,5 +1,10 @@
 # LCPMaps
 
+<!-- ![LCPMaps Logo](https://raw.githubusercontent.com/carvalholuigi25/lcpmaps/master/assets/images/logo/png/logo-no-background.png) -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/carvalholuigi25/lcpmaps/master/assets/images/logo/png/logo-no-background.png" width="auto" height="400">
+</p>
+
 LCPMaps is a project of maps interaction (real and games) where the user can interact the map and all other things related to map interaction.
 
 ## Usage
