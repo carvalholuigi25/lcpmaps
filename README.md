@@ -13,6 +13,7 @@ LCPMaps is a project of maps interaction (real and games) where the user can int
 ## License
 
 LCPMaps - LCP
+
 Copyright (C) 2023 Luis "Luigi" Carvalho (luiscarvalho239@gmail.com or carvalholuigi25@gmail.com)
 
 This program is free software: you can redistribute it and/or modify
