@@ -1,0 +1,23 @@
+{
+  "name": "lcpmaps",
+  "version": "1.0.0",
+  "description": "LCP Maps Interactive",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "startsrv": "node server.js",
+    "startall": "concurrently 'npm:start' 'npm:startsrv'"
+  },
+  "keywords": [
+    "lcp",
+    "map",
+    "interactive"
+  ],
+  "private": true,
+  "license": "ISC",
+  "author": "Luis 'Luigi' Carvalho (luiscarvalho239@gmail.com or carvalholuigi25@gmail.com)",
+  "devDependencies": {
+    "concurrently": "^7.6.0",
+    "json-server": "^0.17.2"
+  }
+}

@@ -1,0 +1,76 @@
+{
+    "coords": [
+        {
+            "id": 1,
+            "name": "Balloon Blip 1",
+            "lat": 150,
+            "lng": 130,
+            "icon": {
+                "src": "../icons/gtavcs/balloonblip.png",
+                "iconSize": [26, 35],
+                "typeBlip": "balloon"
+            },
+            "mapId": 1
+        },
+        {
+            "id": 2,
+            "name": "Rampage Blip 1",
+            "lat": 250.5,
+            "lng": 230.5,
+            "icon": {
+                "src": "../icons/gtavcs/rampblip.png",
+                "iconSize": [26, 35],
+                "typeBlip": "rampage"
+            },
+            "mapId": 1
+        },
+        {
+            "id": 3,
+            "name": "Unique Stunt Jump Blip 1",
+            "lat": 835,
+            "lng": 244,
+            "icon": {
+                "src": "../icons/gtavcs/uniquestuntblip.png",
+                "iconSize": [26, 35],
+                "typeBlip": "unique_stunts"
+            },
+            "mapId": 1
+        },
+        {
+            "id": 4,
+            "name": "lcsm1",
+            "lat": 230,
+            "lng": 100,
+            "icon": {
+                "src": "",
+                "iconSize": [0, 0],
+                "typeBlip": ""
+            },
+            "mapId": 2
+        },
+        {
+            "id": 5,
+            "name": "lcsm2",
+            "lat": 220,
+            "lng": 110,
+            "icon": {
+                "src": "",
+                "iconSize": [0, 0],
+                "typeBlip": ""
+            },
+            "mapId": 2
+        },
+        {
+            "id": 6,
+            "name": "lcsm3",
+            "lat": 210,
+            "lng": 120,
+            "icon": {
+                "src": "",
+                "iconSize": [0, 0],
+                "typeBlip": ""
+            },
+            "mapId": 2
+        }
+    ]
+}

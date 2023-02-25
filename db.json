@@ -1,0 +1,134 @@
+{
+    "maps": [
+        {
+            "mapId": 1,
+            "name": "GTA VCS Map",
+            "src": "../maps/gtavcsmapclean.jpg",
+            "copyright": "Rockstar Games",
+            "copyrightlink": "https://www.rockstargames.com/"
+        },
+        {
+            "mapId": 2,
+            "name": "GTA LCS Map",
+            "src": "../maps/gtalcsmapclean.jpg",
+            "copyright": "Rockstar Games",
+            "copyrightlink": "https://www.rockstargames.com/"
+        },
+        {
+            "mapId": 3,
+            "name": "GTA CTW Map",
+            "src": "../maps/gtactwmapclean.webp",
+            "copyright": "Rockstar Games",
+            "copyrightlink": "https://www.rockstargames.com/"
+        },
+        {
+            "mapId": 4,
+            "name": "GTA V Map",
+            "src": "../maps/gtavmapclean.png",
+            "copyright": "Rockstar Games",
+            "copyrightlink": "https://www.rockstargames.com/"
+        },
+        {
+            "mapId": 5,
+            "name": "GTA IV Map",
+            "src": "../maps/gtaivmapclean.webp",
+            "copyright": "Rockstar Games",
+            "copyrightlink": "https://www.rockstargames.com/"
+        },
+        {
+            "mapId": 6,
+            "name": "GTA SA Map",
+            "src": "../maps/gtasamapclean.jpg",
+            "copyright": "Rockstar Games",
+            "copyrightlink": "https://www.rockstargames.com/"
+        },
+        {
+            "mapId": 7,
+            "name": "GTA VC Map",
+            "src": "../maps/gtavcmapclean.webp",
+            "copyright": "Rockstar Games",
+            "copyrightlink": "https://www.rockstargames.com/"
+        },
+        {
+            "mapId": 8,
+            "name": "GTA III Map",
+            "src": "../maps/gta3mapclean.webp",
+            "copyright": "Rockstar Games",
+            "copyrightlink": "https://www.rockstargames.com/"
+        }
+    ],
+    "coords": [
+        {
+            "id": 1,
+            "name": "Balloon Blip 1",
+            "lat": 150,
+            "lng": 130,
+            "icon": {
+                "src": "../icons/gtavcs/balloonblip.png",
+                "iconSize": [26, 35],
+                "typeBlip": "balloon"
+            },
+            "mapId": 1
+        },
+        {
+            "id": 2,
+            "name": "Rampage Blip 1",
+            "lat": 250.5,
+            "lng": 230.5,
+            "icon": {
+                "src": "../icons/gtavcs/rampblip.png",
+                "iconSize": [26, 35],
+                "typeBlip": "rampage"
+            },
+            "mapId": 1
+        },
+        {
+            "id": 3,
+            "name": "Unique Stunt Jump Blip 1",
+            "lat": 835,
+            "lng": 244,
+            "icon": {
+                "src": "../icons/gtavcs/uniquestuntblip.png",
+                "iconSize": [26, 35],
+                "typeBlip": "unique_stunts"
+            },
+            "mapId": 1
+        },
+        {
+            "id": 4,
+            "name": "lcsm1",
+            "lat": 230,
+            "lng": 100,
+            "icon": {
+                "src": "",
+                "iconSize": [0, 0],
+                "typeBlip": ""
+            },
+            "mapId": 2
+        },
+        {
+            "id": 5,
+            "name": "lcsm2",
+            "lat": 220,
+            "lng": 110,
+            "icon": {
+                "src": "",
+                "iconSize": [0, 0],
+                "typeBlip": ""
+            },
+            "mapId": 2
+        },
+        {
+            "id": 6,
+            "name": "lcsm3",
+            "lat": 210,
+            "lng": 120,
+            "icon": {
+                "src": "",
+                "iconSize": [0, 0],
+                "typeBlip": ""
+            },
+            "mapId": 2
+        }
+    ]
+}
