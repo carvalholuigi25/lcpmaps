@@ -2,56 +2,56 @@
     {
         "mapId": 1,
         "name": "GTA VCS Map",
-        "src": "../maps/gtavcsmapclean.jpg",
+        "src": "/assets/maps/gtavcsmapclean.jpg",
         "copyright": "Rockstar Games",
         "copyrightlink": "https://www.rockstargames.com/"
     },
     {
         "mapId": 2,
         "name": "GTA LCS Map",
-        "src": "../maps/gtalcsmapclean.jpg",
+        "src": "/assets/maps/gtalcsmapclean.jpg",
         "copyright": "Rockstar Games",
         "copyrightlink": "https://www.rockstargames.com/"
     },
     {
         "mapId": 3,
         "name": "GTA CTW Map",
-        "src": "../maps/gtactwmapclean.webp",
+        "src": "/assets/maps/gtactwmapclean.webp",
         "copyright": "Rockstar Games",
         "copyrightlink": "https://www.rockstargames.com/"
     },
     {
         "mapId": 4,
         "name": "GTA V Map",
-        "src": "../maps/gtavmapclean.png",
+        "src": "/assets/maps/gtavmapclean.png",
         "copyright": "Rockstar Games",
         "copyrightlink": "https://www.rockstargames.com/"
     },
     {
         "mapId": 5,
         "name": "GTA IV Map",
-        "src": "../maps/gtaivmapclean.webp",
+        "src": "/assets/maps/gtaivmapclean.webp",
         "copyright": "Rockstar Games",
         "copyrightlink": "https://www.rockstargames.com/"
     },
     {
         "mapId": 6,
         "name": "GTA SA Map",
-        "src": "../maps/gtasamapclean.jpg",
+        "src": "/assets/maps/gtasamapclean.jpg",
         "copyright": "Rockstar Games",
         "copyrightlink": "https://www.rockstargames.com/"
     },
     {
         "mapId": 7,
         "name": "GTA VC Map",
-        "src": "../maps/gtavcmapclean.webp",
+        "src": "/assets/maps/gtavcmapclean.webp",
         "copyright": "Rockstar Games",
         "copyrightlink": "https://www.rockstargames.com/"
     },
     {
         "mapId": 8,
         "name": "GTA III Map",
-        "src": "../maps/gta3mapclean.webp",
+        "src": "/assets/maps/gta3mapclean.webp",
         "copyright": "Rockstar Games",
         "copyrightlink": "https://www.rockstargames.com/"
     }

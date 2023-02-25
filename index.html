@@ -5,81 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>LCP Maps - Home Page</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <style>
-        @font-face {
-            font-family: "g7cube5";
-            src: url("/fonts/g7_cube_5/G7_Cube_5.ttf");
-        }
-
-        * { white-space: normal; word-wrap: break-word; word-break: break-all; margin: 0; padding: 0; }
-        html, body { height: 100%; scroll-behavior: smooth; }
-        body {
-            background: url("/images/apihomewallpaper.jpg");
-            background-position: center center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-attachment: fixed;
-            color: black;
-            margin: 0; 
-            padding: 0 15px;
-        }
-        .mcontainer {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: stretch;
-            height: 100vh;
-        }
-        .container, .container-fluid {
-            padding: 15px;
-            background-color: rgba(255, 255, 255, .5);
-            border-radius: 25px;
-            text-align: left;
-        }
-        .title { 
-            font-family: "g7cube5", sans-serif;
-            text-align: center !important; 
-            font-weight: bold;
-        }
-        ul, ol {
-            list-style-position: inside;
-            margin: auto auto;
-            padding: 0;
-        }
-        ul li, ol li, a {
-            margin: auto 0;
-        }
-        a {
-            color: inherit;
-            font-family: "g7cube5", sans-serif;
-            font-weight: normal;
-        }
-        .mtitle {
-            font-family: "g7cube5", sans-serif;
-            font-size: 1.2rem;
-            font-weight: bold;
-        }
-        .copyright {
-            font-family: "g7cube5", sans-serif;
-            text-align: center;
-            font-size: 1rem;
-            font-weight: bold;
-        }
-        .copyright a {
-            color: inherit;
-        }
-        .year { display: inline-block; }
-        @media all and (max-width: 992px) {
-            .container, .container-fluid {
-                text-align: center;
-            }
-            .copyright {
-                font-size: .7rem;
-            }
-        }
-    </style>
+    <link rel="shortcut icon" href="/assets/images/favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/styles/home.css">
 </head>
 
 <body>
@@ -90,6 +18,7 @@
                     <div class="row p-3">
                         <div class="col-12">
                             <header class="header">
+                                <img src="/assets/images/logo/png/logo-no-background.png" alt="LCP Maps" title="LCP Maps" class="img-fluid imglogo" />
                                 <h1 class="title">LCP Maps</h1>
                             </header>
                         </div>
@@ -132,14 +61,8 @@
         </div>
     </div>
    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
-    <script>
-        if(document.querySelector("#year")) {
-            document.querySelector("#year").innerHTML = new Date().getFullYear();
-        }
-    </script>
+    <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/scripts/home.js"></script>
 </body>
 
 </html>

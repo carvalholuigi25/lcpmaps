@@ -6,7 +6,7 @@
             "lat": 150,
             "lng": 130,
             "icon": {
-                "src": "../icons/gtavcs/balloonblip.png",
+                "src": "/assets/icons/gtavcs/balloonblip.png",
                 "iconSize": [26, 35],
                 "typeBlip": "balloon"
             },
@@ -18,7 +18,7 @@
             "lat": 250.5,
             "lng": 230.5,
             "icon": {
-                "src": "../icons/gtavcs/rampblip.png",
+                "src": "/assets/icons/gtavcs/rampblip.png",
                 "iconSize": [26, 35],
                 "typeBlip": "rampage"
             },
@@ -30,7 +30,7 @@
             "lat": 835,
             "lng": 244,
             "icon": {
-                "src": "../icons/gtavcs/uniquestuntblip.png",
+                "src": "/assets/icons/gtavcs/uniquestuntblip.png",
                 "iconSize": [26, 35],
                 "typeBlip": "unique_stunts"
             },

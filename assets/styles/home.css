@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "g7cube5";
+    src: url("/assets/fonts/g7_cube_5/G7_Cube_5.ttf");
+}
+
+* { white-space: normal; word-wrap: break-word; word-break: break-all; margin: 0; padding: 0; }
+html, body { height: 100%; scroll-behavior: smooth; }
+body {
+    background: url("/assets/images/apihomewallpaper.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: black;
+    margin: 0; 
+    padding: 0 15px;
+}
+.mcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    min-height: 100%;
+}
+.container, .container-fluid {
+    padding: 15px;
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 25px;
+    text-align: left;
+}
+.title { 
+    font-family: "g7cube5", sans-serif;
+    text-align: center !important; 
+    font-weight: bold;
+}
+ul, ol {
+    list-style-position: inside;
+    margin: auto auto;
+    padding: 0;
+}
+ul li, ol li, a {
+    margin: auto 0;
+}
+a {
+    color: inherit;
+    font-family: "g7cube5", sans-serif;
+    font-weight: normal;
+}
+.mtitle {
+    font-family: "g7cube5", sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.copyright {
+    font-family: "g7cube5", sans-serif;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.copyright a {
+    color: inherit;
+}
+
+.img-fluid {
+    display: block;
+    margin: auto;
+    width: auto;
+    max-width: 100%;
+}
+
+.imglogo {
+    width: 150px;
+    height: auto;
+}
+
+.year { display: inline-block; }
+
+@media all and (max-width: 992px) {
+    .container, .container-fluid {
+        text-align: center;
+    }
+    .copyright {
+        font-size: .7rem;
+    }
+}

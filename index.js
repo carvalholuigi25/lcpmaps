@@ -10,11 +10,14 @@ var port = 3001;
 var portssl = 3002;
 
 app.use(cors());
-app.use('/data', express.static(path.join(__dirname, '/assets/data')));
-app.use('/fonts', express.static(path.join(__dirname, '/assets/fonts')));
-app.use('/icons', express.static(path.join(__dirname, '/assets/icons')));
-app.use('/images', express.static(path.join(__dirname, '/assets/images')));
-app.use('/maps', express.static(path.join(__dirname, '/assets/maps')));
+app.use('/node_modules', express.static(path.join(__dirname, '/node_modules')));
+app.use('/assets/data', express.static(path.join(__dirname, '/assets/data')));
+app.use('/assets/fonts', express.static(path.join(__dirname, '/assets/fonts')));
+app.use('/assets/icons', express.static(path.join(__dirname, '/assets/icons')));
+app.use('/assets/images', express.static(path.join(__dirname, '/assets/images')));
+app.use('/assets/maps', express.static(path.join(__dirname, '/assets/maps')));
+app.use('/assets/styles', express.static(path.join(__dirname, '/assets/styles')));
+app.use('/assets/scripts', express.static(path.join(__dirname, '/assets/scripts')));
 app.use('/pages', express.static(path.join(__dirname, '/pages')));
 app.use(express.json());
 
