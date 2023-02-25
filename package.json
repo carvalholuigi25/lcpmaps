@@ -14,7 +14,7 @@
     "interactive"
   ],
   "private": true,
-  "license": "ISC",
+  "license": "GPL-3.0",
   "author": "Luis 'Luigi' Carvalho (luiscarvalho239@gmail.com or carvalholuigi25@gmail.com)",
   "devDependencies": {
     "concurrently": "^7.6.0",
