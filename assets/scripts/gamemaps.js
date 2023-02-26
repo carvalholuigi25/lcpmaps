@@ -238,6 +238,31 @@ function resizeMap() {
     }, 100 * 4);
 }
 
+function printMap(map) {
+    var customActionToPrint = function(context, mode) {
+        return function() {
+            window.alert("We are printing the MAP. Let's do Custom print here!");
+            context._printMode(mode);
+        }
+    };
+    
+    L.control.browserPrint({
+        title: 'Just print me!',
+        documentTitle: 'Map printed using leaflet.browser.print plugin',
+        printLayer: null,
+        closePopupsOnPrint: false,
+        printModes: [
+            L.BrowserPrint.Mode.Landscape("Tabloid",{title: "Tabloid VIEW"}),
+            L.browserPrint.mode("Alert",{title:"User specified print action",pageSize: "A6", action: customActionToPrint, invalidateBounds: false}),
+            L.BrowserPrint.Mode.Landscape(),
+            "Portrait",
+            L.BrowserPrint.Mode.Auto("B4",{title: "Auto"}),
+            L.BrowserPrint.Mode.Custom("B5",{title:"Select area"})
+        ],
+        manualMode: false
+    }).addTo(map);
+}
+
 function doMapOp(img, map, i = -1) {
     var enablecordsMouseMove = false;
     var enableRefreshWindow = true;
@@ -329,6 +354,7 @@ if(document.querySelector('#map')) {
         trackResize: true
     });
 
+    printMap(map);
 
     fetchMapsAndMarkers().then(([maps, markers]) => {
         mapsfile = maps;
