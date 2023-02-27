@@ -23,10 +23,40 @@ function printMap(map) {
     }).addTo(map);
 }
 
-const map = L.map('map').setView([25.761681, -80.191788], 13); //miami latitude and longitude coordinates
-const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 19,
-    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-}).addTo(map);
+function loadDrawPlugin(osm, map) {
+    var drawnItems = L.featureGroup().addTo(map);
+    L.control.layers({
+        'osm': osm.addTo(map),
+        "google": L.tileLayer('//www.google.cn/maps/vt?lyrs=s@189&gl=cn&x={x}&y={y}&z={z}', {
+            attribution: '<a href="//www.google.pt" target="_blank">Google</a>'
+        })
+    }, { 'drawlayer': drawnItems }, { position: 'topleft', collapsed: false }).addTo(map);
+
+    map.addControl(new L.Control.Draw({
+        edit: {
+            featureGroup: drawnItems,
+            poly: {
+                allowIntersection: false
+            }
+        },
+        draw: {
+            polygon: {
+                allowIntersection: false,
+                showArea: true
+            }
+        }
+    }));
+
+    map.on(L.Draw.Event.CREATED, function (event) {
+        var layer = event.layer;
+        drawnItems.addLayer(layer);
+    });
+}
+
+var osmUrl = '//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+    osmAttrib = '&copy; <a href="//openstreetmap.org/copyright" target="_blank">OpenStreetMap</a> contributors',
+    osm = L.tileLayer(osmUrl, { maxZoom: 18, attribution: osmAttrib }),
+    map = new L.Map('map', { center: new L.LatLng(25.761681, -80.191788), zoom: 13 }); //miami latitude and longitude coordinates
 
 printMap(map);
+loadDrawPlugin(osm, map);
