@@ -38,37 +38,37 @@
         },
         {
             "id": 4,
-            "name": "lcsm1",
+            "name": "Hidden Package Blip 1",
             "lat": 230,
             "lng": 100,
             "icon": {
-                "src": "",
-                "iconSize": [0, 0],
-                "typeBlip": ""
+                "src": "/assets/icons/gtalcs/hpblip.png",
+                "iconSize": [32, 35],
+                "typeBlip": "hidden_packages"
             },
             "mapId": 2
         },
         {
             "id": 5,
-            "name": "lcsm2",
+            "name": "Unique Stunt Jump Blip 1",
             "lat": 220,
             "lng": 110,
             "icon": {
-                "src": "",
-                "iconSize": [0, 0],
-                "typeBlip": ""
+                "src": "/assets/icons/gtalcs/uniquestuntblip.png",
+                "iconSize": [26, 35],
+                "typeBlip": "unique_stunts"
             },
             "mapId": 2
         },
         {
             "id": 6,
-            "name": "lcsm3",
+            "name": "Rampage Blip 1",
             "lat": 210,
             "lng": 120,
             "icon": {
-                "src": "",
-                "iconSize": [0, 0],
-                "typeBlip": ""
+                "src": "/assets/icons/gtalcs/rampblip.png",
+                "iconSize": [26, 35],
+                "typeBlip": "rampage"
             },
             "mapId": 2
         }
